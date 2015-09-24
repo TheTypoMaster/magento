@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<package>
+    <name>cadence_mailchimp</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license>GNU GPL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This extension allows you to collect email addresses through a popup and syncs to your Mailchimp account.</summary>
+    <description>&lt;h2&gt;Mailchimp Email Popup&lt;/h2&gt;&#xD;
+This Mailchimp Email Popup extension allows you to ask your customers for their email address through an easy-to-customize popup modal. &#xD;
+&#xD;
+You may select:&#xD;
+&lt;ul&gt;&#xD;
+&lt;li&gt;The number of page views before the popup triggers&lt;/li&gt;&#xD;
+&lt;li&gt;Optionally set a delay (timer) to show the popup&lt;/li&gt;&#xD;
+&lt;li&gt;Exclude customers revisiting your site via email through an exclusion parameter&lt;/li&gt;&#xD;
+&lt;li&gt;Customize the popup by editing a static block&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+&lt;a href="#"&gt;Click here to visit the official extension documentation page&lt;/a&gt; which provides detailed instructions.&#xD;
+&#xD;
+&lt;h2&gt;Embed Code&lt;/h2&gt;&#xD;
+This extension utilizes embed code that can be found in your Mailchimp account. &lt;a href="#"&gt;Click here to visit the official extension documentation article&lt;/a&gt; which provides detailed instructions.&#xD;
+&#xD;
+&lt;h2&gt;About The Developer&lt;/h2&gt;&#xD;
+Cadence Labs is a digital marketing, design, and Magento agency based in Boulder, Colorado. Our developers are Magento certified eCommerce geeks!</description>
+    <notes>Tested on 1.9</notes>
+    <authors><author><name>Cadence Labs</name><user>cadencelabs</user><email>alan@cadence-labs.com</email></author></authors>
+    <date>2015-03-03</date>
+    <time>02:29:22</time>
+    <contents><target name="magecommunity"><dir name="Cadence"><dir name="Mailchimp"><dir name="Block"><file name="Popup.php" hash="e0094f7cf5fe6a97c1addfa9ae273067"/></dir><dir name="Helper"><file name="Data.php" hash="9b31f0adb1c579cb6aee5d5ca1d9aa78"/></dir><dir name="etc"><file name="adminhtml.xml" hash="80cb33e848abfe88765a153ee447f65e"/><file name="config.xml" hash="c07ab1ab574d1eaba2826eb75d55f05c"/><file name="system.xml" hash="ee1af6f04074f80e97a3c213bac72647"/></dir><dir name="sql"><dir name="cadence_mailchimp_setup"><file name="install-1.0.0.php" hash="9497483c9153ba87d10d0ace7d5e947d"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Cadence_Mailchimp.xml" hash="b230acfef38d0a5a3740b7cc51e61f1e"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="cadence_mailchimp.xml" hash="d5e616b8fc7e24e34439f0d49810aa7e"/></dir><dir name="template"><dir name="cadence_mailchimp"><file name="popup.phtml" hash="c8cd3d1cbf28b28bb92c05c7a714f1b2"/></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="css"><dir name="cadence"><file name="mailchimp.css" hash="bf515d89f84b5aea1df06ae087005cc1"/></dir></dir><dir name="images"><dir name="cadence"><dir name="mailchimp"><file name="callout.png" hash="1098bc461d3780aa69423486cdfb83e3"/></dir></dir></dir><dir name="js"><dir name="cadence"><dir name="lib"><dir name="colorbox"><file name="colorbox.css" hash="dd9349a7c38a35c892f4c329e7b0a47b"/><dir name="images"><file name="arrows-button.png" hash="9b6c2156a39edb990b86e52838804d75"/><file name="border.png" hash="7ca8a1d2eb0763b35c266cd54bee2fa5"/><file name="close-button.png" hash="92ff795a4cbb54af7767a98d7bbd202d"/><file name="controls.png" hash="b68b9ecaae424de4862ba0d055b7a560"/><dir name="ie6"><file name="borderBottomCenter.png" hash="1936585831e8bcf4eb5ef1081c8e2574"/><file name="borderBottomLeft.png" hash="7ceeb01563f030dc47837fd8bad29488"/><file name="borderBottomRight.png" hash="297fb77440870d91f519bcecdb312725"/><file name="borderMiddleLeft.png" hash="64df0244eeaade27764d2cf33606527b"/><file name="borderMiddleRight.png" hash="9fa458eaaa35b80b2452f35a1d6b4d0c"/><file name="borderTopCenter.png" hash="01ecb01841270f3a765aadf4900929f3"/><file name="borderTopLeft.png" hash="bf4949b95b09d255edd9bcb8358a3557"/><file name="borderTopRight.png" hash="51315fa19507a33d5f1b5411598593e7"/></dir><file name="loading.gif" hash="b5e24db8f84eb4eac09c88f804f36df2"/><file name="loading_background.png" hash="acf427e932fb9413700a4b8b58b41eec"/><file name="overlay.png" hash="790376e15a036959e358a19d4a7ea437"/></dir><file name="jquery.colorbox.js" hash="bb9fedabf6fb64c4cee7930a7c11f0f3"/></dir><file name="jquery.cookie.js" hash="b7dfd894c1b56eea2e294dc2a69f2b2c"/><file name="jquery.js" hash="3e042fa183a15cf65176dbe69b937c4a"/></dir><dir name="mailchimp"><file name="popup.js" hash="3aca22d905f18f8ae5d329e28913eea2"/></dir></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>5.6.0</max></php></required></dependencies>
+</package>
